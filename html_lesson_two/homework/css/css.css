@@ -1,0 +1,44 @@
+body {
+    box-sizing: border-box;
+}
+h2, p.start {
+    color: white;
+
+}
+img.start {
+    width: 150px;
+}
+h1.start {
+    color: red;
+}
+p.start {
+    width: 131px;
+    line-height: 22px;
+    font-size: 20px;
+    background: blue;
+    margin-bottom: 115px;
+}
+a.color {
+    color: red;
+}
+h2.start {
+    background: green;
+    padding: 15px 0 15px 5px;
+}
+h2.mySkills {
+    background: green;
+    padding: 50px 0 50px 50px;
+}
+p.form {
+    padding-left: 100px;
+}
+ul.bor {
+    margin: 40px 0;
+}
+li.bor {
+    border-bottom: 0;
+}
+li {
+    border: 2px solid black ;
+    font-size: 36px;
+}
