@@ -22,7 +22,6 @@ p {
 .header {
     background: rgba(71,62,95,1);
     background: -moz-linear-gradient(-45deg, rgba(71,62,95,1) 0%, rgba(43,34,64,1) 100%);
-    background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(71,62,95,1)), color-stop(100%, rgba(43,34,64,1)));
     background: -webkit-linear-gradient(-45deg, rgba(71,62,95,1) 0%, rgba(43,34,64,1) 100%);
     background: -o-linear-gradient(-45deg, rgba(71,62,95,1) 0%, rgba(43,34,64,1) 100%);
     background: -ms-linear-gradient(-45deg, rgba(71,62,95,1) 0%, rgba(43,34,64,1) 100%);
