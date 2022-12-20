@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+div, p, input, button, form, span, a, ul, li {
+    box-sizing: border-box;
+}
+.container {
+    width: 100%;
+    max-width: 1348px;
+    margin: 0 auto;
+    padding: 284px 125px 0 127px;
+
+}
+.wrapper {
+    display: flex;
+}
+.imgs {
+    width: 58%;
+}
+.imgs-box {
+    width: 138px;
+    height: 295px;
+    padding-top: 33px;
+    padding-bottom: 60px;
+    padding-left: 20px;
+}
+.photo-one {
+    width: 98px;
+    height: 83px;
+    display: block;
+    margin-bottom: 30px;
+    margin-left: 17px;
+}
+.photo-two {
+    width: 104px;
+    height: 58px;
+    display: block;
+    margin-left: 21px;
+}
+.photo-three {
+    width: 138px;
+    height: 94px;
+    display: block;
+    margin-top: 30px;
+}
+.big-img {
+    width: 512px;
+    height: 287px;
+    display: block;
+    padding-left: 46px;
+    padding-top: 60px;
+    padding-right: 60px;
+    padding-bottom: 68px;
+}
+.information {
+    width: 42%;
+    display: block;
+}

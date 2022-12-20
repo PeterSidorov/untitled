@@ -16,8 +16,10 @@ p {
     line-height: 1.65em;
 }
 .container {
-    width: 1170px;
+    width: 100%;
+    max-width: 1170px;
     margin: 0 auto;
+    padding: 0 15px;
 }
 .header {
     background: rgba(71,62,95,1);
@@ -133,15 +135,7 @@ p {
     font-size: 14px;
 }
 
-@media screen and (max-width: 1200px) {
-    .container {
-        width: 993px;
-    }
-}
 @media screen and (max-width: 992px) {
-    .container {
-        width: 720px;
-    }
 
     .offer {
         width: 100%;
@@ -170,7 +164,16 @@ p {
 
 }
 @media screen and (max-width: 768px) {
-
+    section.learn .section-title {
+        text-align: center;
+        margin-bottom: 40px;
+    }
+    .skills {
+        display: block;
+        width: 100%;
+        max-width: 350px;
+        margin: 0 auto;
+    }
 }
 @media screen and (max-width: 576px) {
 
