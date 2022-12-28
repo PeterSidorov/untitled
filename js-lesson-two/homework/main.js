@@ -107,6 +107,7 @@ const idPerson = (firstName,lastName) => {
 }
 idPerson('Peter', 'Sydorov');
 */
+
 /*
     Задание 5:
 
