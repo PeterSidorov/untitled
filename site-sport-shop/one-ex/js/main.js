@@ -16,3 +16,4 @@ threeImg.addEventListener('click', () => {
     document.querySelector('.big-img').src="img/bike2.png";
 });
 
+
