@@ -85,24 +85,13 @@ div, p, input, button, form, span, a, ul, li {
     margin-top: 15px;
     margin-bottom: 20px;
 }
-.around-pink {
-    background: #FF9494;
+
+.around {
     border-radius: 50%;
     height: 40px;
     width: 40px;
-}
-.around-violet{
-    background: #BEA8E3;
-    border-radius: 50%;
-    height: 40px;
-    width: 40px;
-    margin: 16px 10px;
-}
-.around-yellow{
-    background: #E4DD31;
-    border-radius: 50%;
-    height: 40px;
-    width: 40px;
+    cursor: pointer;
+    margin-left: 10px;
 }
 .text-table {
     color: gray;
@@ -120,21 +109,24 @@ div, p, input, button, form, span, a, ul, li {
     margin-right: 15px;
     outline: none;
     border: none;
+    cursor: pointer;
+
 }
 .btn {
-    width: 222px;
-    height: 55px;
+    padding-top: 20px;
+    padding-bottom: 17px;
+    padding-left: 65px;
+    padding-right: 70px;
     border: 1px solid orange;
     border-radius: 7px;
     font-weight: bold;
+    cursor: pointer;
 }
 .btn-add-card {
     color: white;
     background: orange;
 }
 .btn-buy-click {
-    width: 267px;
     color: orange;
     background: white;
-    margin-left: 30px;
 }
