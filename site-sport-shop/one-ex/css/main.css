@@ -93,6 +93,11 @@ div, p, input, button, form, span, a, ul, li {
     cursor: pointer;
     margin-left: 10px;
 }
+.active {
+    outline: 4px solid white;
+    outline-offset: -6px;
+}
+
 .text-table {
     color: gray;
     margin: 0 15px;
@@ -130,3 +135,4 @@ div, p, input, button, form, span, a, ul, li {
     background: white;
     margin-left: 25px;
 }
+
