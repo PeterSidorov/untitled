@@ -1,4 +1,47 @@
 
+
+
+
+const bigImg = document.getElementById('big-img')
+
+
+var imgElements = document.querySelectorAll('.img-img');
+
+
+
+for (var i = 0; i < imgElements ;i++) {
+    imgElements.item(i).addEventListener('click', onImageClick)
+};
+
+function onImageClick () {
+    bigImg.src = this.src;
+}
+
+
+
+//////
+var colorElements = document.querySelectorAll('.around');
+for (var i = 0; i < colorElements.length ;i++) {
+    colorElements.item(i).addEventListener('click', checkColor)
+};
+function checkColor() {
+    var active = document.querySelector('.around.active')
+    if (active) {
+        active.classList.remove('active');
+    }
+
+    this.classList.add('active');
+}
+
+
+
+
+
+
+
+// ________________________________________________________________ old code
+
+/*
 const oneImg = document.getElementById('oneImg');
 const twoImg = document.getElementById('twoImg');
 const threeImg = document.getElementById('threeImg');
@@ -6,39 +49,31 @@ const bigImg = document.getElementById('big-img')
 
 function onImageClick () {
     bigImg.src = this.src;
-};
+}
 
 function clicker  (firstName)  {
     firstName.addEventListener('click',onImageClick );
+}
+oneImg.addEventListener('click',onImageClick );
+twoImg.addEventListener('click',onImageClick );
+threeImg.addEventListener('click',onImageClick );
+
+ */
+/*
+var colorElements = document.querySelectorAll('.around');
+
+
+for (var i = 0; i < colorElements.length ;i++) {
+    colorElements.item(i).addEventListener('click', checkColor)
 };
 
-clicker(oneImg);
-clicker(twoImg);
-clicker(threeImg);
-// ________________________________________________________________ NEW PART
-const pink = document.getElementById('pink')
-const violet = document.getElementById('violet')
-const yellow = document.getElementById('yellow')
+function checkColor() {
 
-pink.addEventListener('click', () => {
-    pink.classList.add('active')
+    var active = document.querySelector('.around.active')
+    if (active) {
+        active.classList.remove('active');
+    }
 
-    violet.classList.remove('active')
-    yellow.classList.remove('active')
-})
-
-violet.addEventListener('click', () => {
-    violet.classList.add('active')
-
-    pink.classList.remove('active')
-    yellow.classList.remove('active')
-})
-
-yellow.addEventListener('click', () => {
-    yellow.classList.add('active')
-
-    pink.classList.remove('active')
-    violet.classList.remove('active')
-})
-
-
+    this.classList.add('active');
+}
+ */
